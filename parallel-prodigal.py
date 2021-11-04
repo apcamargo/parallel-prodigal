@@ -381,6 +381,11 @@ def main():
             else:
                 print_raw_file(workDir.name + "/chunk" + str(cur) + ".out")
 
+        protIdStart += seqsPerChunk
+        nuclIdStart += seqsPerChunk
+        gffIdStart += seqsPerChunk
+        gbkIdStart += seqsPerChunk
+
 
 if __name__ == "__main__":
     main()
